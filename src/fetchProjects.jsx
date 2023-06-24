@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 
 const client = createClient({
   space: "7c5m8gs15npn",
-  accessToken: "zu1kiakjwoJBhtD0-9ha4q6yIbBqPZyUH7bfIG2ndOM",
   environment: "master",
+  accessToken: import.meta.env.VITE_API_KEY,
 });
 
 // custom hook
